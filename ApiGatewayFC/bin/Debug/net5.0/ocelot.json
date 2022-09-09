@@ -1,0 +1,38 @@
+{
+  "Aggregates": [
+    {
+      "UpstreamPathTemplate": "/api/user-posts",
+      "RouteKeys": [ "users", "posts" ],
+      "Aggregator": "UsersPostsAggregator"
+    }
+  ],
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": [  ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jsonplaceholder.typicode.com",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/users",
+      "Key": "users"
+    },
+    {
+      "UpstreamPathTemplate": "/api/posts",
+      "UpstreamHttpMethod": [  ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jsonplaceholder.typicode.com",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/posts",
+      "Key": "posts"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://apigatewayfelixcalle.azurewebsites.net:44372"
+  }
+}

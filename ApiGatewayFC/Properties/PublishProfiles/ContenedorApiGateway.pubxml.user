@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2022-09-09T22:59:34.3169739Z;True|2022-09-09T17:55:49.5257100-04:00;True|2022-09-09T17:48:40.3965434-04:00;True|2022-09-09T17:40:14.6601899-04:00;True|2022-09-09T17:10:12.4673041-04:00;</History>
+  </PropertyGroup>
+</Project>
